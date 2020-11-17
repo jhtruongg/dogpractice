@@ -1,0 +1,26 @@
+body {
+
+}
+h1 {
+  color: purple;
+  background-color: #ffcc00;
+  text-align: center;
+
+
+}
+
+.dogfacts {
+  background-color: teal;
+}
+
+@media only screen and (max-width: 800px) {
+  body{
+    background-color: blue;
+  }
+  .dogcolumn img {
+    width: 95%;
+}
+  .catcolumn img {
+    width: 95%;
+  }
+}
